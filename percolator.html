@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Percolator</title>
+        <script src="percolator.js" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script>
+            $(function(){
+                percolator.initEvents();
+            });
+        </script>
+    </head>
+    <body>
+        <form>
+            <input type="text" name="apiKey" />
+            <label for="apiKey">Destiny API Key</label>
+
+            <select name="onlineNetwork">
+                <option value="1">XBox Live</option>
+                <option value="2">PSN</option>
+            </select>>
+            <label for="onlineNetwork">Network</label>
+
+            <input type="text" name="userName" />
+            <label for="userName">User Name</label>
+
+            <input type="button" name="Go Fetch" id="fetchMembership" />
+
+            <span name="membershipId"></span>
+        </form>
+    </body>
+</html>
