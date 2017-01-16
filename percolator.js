@@ -92,12 +92,43 @@ var percolator = {
 
         var accountSummary = this.fetchAccountSummary(apiKey, networkId, membershipId);
 
-        $("#characterList").append("<li>Classes go here.</li>");
+        $("#accountSummary").append(accountSummary);
+
+        this.extractCharacters();
+    },
+    extractCharacters: function() {
+        var self = this;
+        var accountSummary = JSON.parse($("#accountSummary").val());
+
+        $(accountSummary.Response.data.characters).each(function(i, character) {
+            var classHash = character.characterBase.classHash;
+            var translatedClass = self.translateClassHash(classHash);
+
+            $("#characterList").append("<li>{0}</li>".format(translatedClass));
+        });
+    },
+    translateClassHash: function(classHash) {
+        // https://github.com/sebastianbarfurth/destiny-php/blob/master/src/Destiny/Support/Translators/HashTranslator.php
+        switch(classHash)
+        {
+            case 3655393761:
+                return 'Titan';
+            case 671679327:
+                return 'Hunter';
+            case 2271682572:
+                return 'Warlock';
+            default:
+                return 'Unknown';
+        }
     },
     initEvents: function() {
         var self = this;
         $('#fetchMembership').click(function() {
             self.getMembershipId();
+        });
+
+        $("#extractCharacters").click(function() {
+            self.extractCharacters();
         });
     }
 };
