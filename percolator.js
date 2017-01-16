@@ -39,7 +39,7 @@ var percolator = {
 
         var membershipId = this.fetchMembershipIdFromBungie(apiKey, userName, networkId);
 
-        $("#membershipId").text(membershipId);
+        this.setMembershipId(membershipId);
     },
     getApiKey: function() {
         var apiKey = $("#apiKey").val();
@@ -69,10 +69,30 @@ var percolator = {
         return networkId;
     },
     setMembershipId: function(membershipId) {
+        $("#membershipId").text(membershipId);
+    },
+    fetchAccountSummary: function(apiKey, networkId, membershipId)
+    {
+        var bungieUrl = 'https://www.bungie.net/Platform/Destiny/{0}/Account/{1}/Summary/'.format(networkId, membershipId);
 
+        $.ajax({
+            url: bungieUrl,
+            type: 'get',
+            headers: {
+                'X-API-Key': apiKey
+            },
+            success: function(data) {
+                console.info(data);
+            }
+        });
     },
     getAccountSummary: function(membershipId) {
+        var networkId = this.getNetwork();
+        var apiKey = this.getApiKey();
 
+        var accountSummary = this.fetchAccountSummary(apiKey, networkId, membershipId);
+
+        $("#characterList").append("<li>Classes go here.</li>");
     },
     initEvents: function() {
         var self = this;
