@@ -15,7 +15,7 @@ var percolator = {
 
     },
     fetchMembershipIdFromBungie: function(apiKey, userName, networkId) {
-        var bungieUrl = 'http://www.bungie.net/Platform/Destiny/{0}/Stats/GetMembershipIdByDisplayName/{1}/'.format(networkId, userName);
+        var bungieUrl = 'https://www.bungie.net/Platform/Destiny/{0}/Stats/GetMembershipIdByDisplayName/{1}/'.format(networkId, userName);
 
         $.ajax({
             url: bungieUrl,
