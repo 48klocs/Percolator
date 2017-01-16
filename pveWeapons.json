@@ -1,0 +1,1541 @@
+[
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "Angel's Advocate",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Life Support/Zen Moment",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "Badger CCL",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Hand-laid Stock",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "Cocytus SR4",
+   "PerkOne": "Torch HS2",
+   "PerkTwo": "Life Support",
+   "PerkThree": "Hand-laid Stock",
+   "PerkFour": "Eye of the Storm"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "Colovance's Duty",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Hand-laid Stock",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "Cryptic Dragon",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Reactive Reload"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "The Distant Star",
+   "PerkOne": "Iron Ranged Scope",
+   "PerkTwo": "Perfect Balance",
+   "PerkThree": "Full Auto/Explosive Rounds",
+   "PerkFour": "Zen Moment/Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "Hand of Judgement",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Hand-laid Stock",
+   "PerkThree": "Explosive Rounds",
+   "PerkFour": "Hidden Hand/Zen Moment"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "The Hero Formula",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Life Support/Zen Moment",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "Keystone 01",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Explosive Rounds",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "Lethe Noblesse",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Hand-laid Stock",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "NL Shadow 701X",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Zen Moment",
+   "PerkThree": "Explosive Rounds",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "Not Like the Others",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Zen Moment",
+   "PerkThree": "Explosive Rounds",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "The Saterienne Rapier",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Explosive Rounds",
+   "PerkFour": "Reactive Reload"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "SUROS DIS-43",
+   "PerkOne": "SPO-28",
+   "PerkTwo": "Perfect Balance/Hammer Forged",
+   "PerkThree": "Hidden Hand",
+   "PerkFour": "Smallbore/Hand-laid Stock"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "SUROS DIS-47",
+   "PerkOne": "SPO-28",
+   "PerkTwo": "Perfect Balance/Hammer Forged",
+   "PerkThree": "Full Auto",
+   "PerkFour": "Smallbore/Hand-laid Stock"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "Treads Upon Stars",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "Tuonela SR4",
+   "PerkOne": "Torch HS2",
+   "PerkTwo": "Life Support",
+   "PerkThree": "Extended Mag",
+   "PerkFour": "Zen Moment/Third Eye"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Scout Rifles",
+   "Name": "The Wounded",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Explosive Rounds",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "Aegis of the Reef",
+   "PerkOne": "Red Dot-OAS/SureShot IS",
+   "PerkTwo": "Perfect Balance",
+   "PerkThree": "High Caliber Rounds",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "Apple of Discord",
+   "PerkOne": "SC Holo",
+   "PerkTwo": "Headseeker",
+   "PerkThree": "Counterbalance",
+   "PerkFour": "Hand-laid Stock"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "B-29 Party Favor",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Feeding Frenzy",
+   "PerkThree": "Perfect Balance/Hand-laid Stock",
+   "PerkFour": "Counterbalance/Rangefinder"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "The Clever Dragon",
+   "PerkOne": "Iron Red Dot",
+   "PerkTwo": "Perfect Balance",
+   "PerkThree": "High Caliber Rounds",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "Final Duty",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Headseeker",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Feeding Frenzy"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "Grasp of Malok",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Counterbalance",
+   "PerkThree": "Braced Frame/Smallbore/Perfect Balance",
+   "PerkFour": "Feeding Frenzy"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "Hawksaw",
+   "PerkOne": "SPO-28",
+   "PerkTwo": "Perfect Balance",
+   "PerkThree": "Counterbalance",
+   "PerkFour": "Rifled Barrel"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "Herja-D",
+   "PerkOne": "SC Holo",
+   "PerkTwo": "Headseeker",
+   "PerkThree": "Counterbalance",
+   "PerkFour": "Hand-laid Stock"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "Hopscotch Pilgrim",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Headseeker",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Full Auto"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "Lyudmila-D",
+   "PerkOne": "SC Holo",
+   "PerkTwo": "Headseeker",
+   "PerkThree": "Counterbalance",
+   "PerkFour": "Hand-laid Stock"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "Nirwen's Mercy",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Counterbalance",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Feeding Frenzy"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "Parthian Shot",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Feeding Frenzy",
+   "PerkThree": "Hand-laid Stock",
+   "PerkFour": "Headseeker"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "Spare Change .25",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Counterbalance",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Feeding Frenzy"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "SUROS PDX-41",
+   "PerkOne": "SPO-28",
+   "PerkTwo": "Perfect Balance",
+   "PerkThree": "Hidden Hand",
+   "PerkFour": "Smallbore"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "SUROS PDX-45",
+   "PerkOne": "SPO-28",
+   "PerkTwo": "Perfect Balance",
+   "PerkThree": "Counterbalance",
+   "PerkFour": "Rifled Barrel/Smallbore"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "The Villainy",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Counterbalance",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Feeding Frenzy"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Pulse Rifles",
+   "Name": "The Waltz",
+   "PerkOne": "Reflex",
+   "PerkTwo": "High Caliber Rounds",
+   "PerkThree": "Smallbore",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Byronic Hero",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "The Devil You Know",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Icarus"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Down and Doubt 00-0",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Luck in the Chamber",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Icarus"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Eyasluna",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Finnala's Peril",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Free Will III",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Explosive Rounds",
+   "PerkThree": "Hammer Forged",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Gatheris-D",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Rangefinder",
+   "PerkFour": "Reinforced Barrel"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Her Revenge",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Hidden Hand/Icarus"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "How Dare You",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Icarus",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Ill Will",
+   "PerkOne": "SureShot IS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Luck in the Chamber"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Imago Loop",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Hidden Hand/Icarus"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Judith-D",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Final Round/Reactive Reload",
+   "PerkFour": "Speed Reload"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Kumakatok HC-4",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Luck in the Chamber",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Icarus"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "The Lingering Song",
+   "PerkOne": "Iron Lordly Sights",
+   "PerkTwo": "Braced Frame",
+   "PerkThree": "Feather Mag",
+   "PerkFour": "Luck in the Chamber"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Lord High Fixer",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Hidden Hand/Icarus"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "The Palindrome",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Icarus",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "The Revelator",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Stolen Pride",
+   "PerkOne": "TrueSight IS",
+   "PerkTwo": "Rifled Barrel",
+   "PerkThree": "Explosive Rounds",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "The Vanity",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Luck in the Chamber",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Icarus"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "Uffren HC4",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Luck in the Chamber",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Icarus"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Hand Cannons",
+   "Name": "The Wail",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Outlaw",
+   "PerkThree": "Hammer Forged",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "An Answering Chord",
+   "PerkOne": "SPO-28",
+   "PerkTwo": "Perfect Balance",
+   "PerkThree": "Smallbore",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Antipodal Hindsight",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Arminius-D",
+   "PerkOne": "SC Holo",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Counterbalance",
+   "PerkFour": "Braced Frame"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Assembly II",
+   "PerkOne": "Reflex",
+   "PerkTwo": "High Caliber Rounds",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "The Continental",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "The Dealbreaker",
+   "PerkOne": "SC Holo",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Rangefinder",
+   "PerkFour": "Rifled Barrel"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Does Not Bow",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Extremophile 011",
+   "PerkOne": "Reflex",
+   "PerkTwo": "High Caliber Rounds",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Grim Citizen III",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Haakon's Hatchet",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Smallbore",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Her Memory",
+   "PerkOne": "Reflex/Sureshot IS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Hex Caster ARC",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Persistence",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Life Support"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Paleocontact JPK-43",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Red Spectre",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Shadow Price",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Soulstealer's Claw",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Perfect Balance",
+   "PerkThree": "Single Point Sling",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "SUROS ARI-41",
+   "PerkOne": "SPO-28",
+   "PerkTwo": "Perfect Balance",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "SUROS ARI-45",
+   "PerkOne": "SPO-28",
+   "PerkTwo": "Perfect Balance",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "The Unbent Tree",
+   "PerkOne": "Iron Ranged Scope",
+   "PerkTwo": "Braced Frame",
+   "PerkThree": "Single Point Sling",
+   "PerkFour": "Counterbalance"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Vision Stone",
+   "PerkOne": "Smart Drift Control",
+   "PerkTwo": "Send It",
+   "PerkThree": "Hand Loaded",
+   "PerkFour": "Crowd Control"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Zarinaea-D",
+   "PerkOne": "SC Holo",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Rangefinder",
+   "PerkFour": "Braced Frame"
+ },
+ {
+   "Slot": "Primary",
+   "Subtype": "Auto Riles",
+   "Name": "Zero-Day Dilemma",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Crowd Control",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "1000 Yard Stare",
+   "PerkOne": "ShortGaze SLH10",
+   "PerkTwo": "Eye of the Storm",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "20/20 AMR7",
+   "PerkOne": "ShortGaze SLH10",
+   "PerkTwo": "Unflinching",
+   "PerkThree": "Skip Rounds",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Antinomy XVI",
+   "PerkOne": "ATA Scout",
+   "PerkTwo": "Unflinching",
+   "PerkThree": "Performance Bonus",
+   "PerkFour": "Quickdraw"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Aoife Rua-D",
+   "PerkOne": "ATA Scout",
+   "PerkTwo": "Unflinching",
+   "PerkThree": "Performance Bonus",
+   "PerkFour": "Quickdraw"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Bitter Edge 010",
+   "PerkOne": "ShortGaze SLH10",
+   "PerkTwo": "Quickdraw",
+   "PerkThree": "Life Support",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "But Not Forgotten",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Braced Frame",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Deposition VII",
+   "PerkOne": "ShortGaze SLH10",
+   "PerkTwo": "Snapshot",
+   "PerkThree": "Mulligan",
+   "PerkFour": "Unflinching"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Devil's Dawn",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Life Support",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Firefly"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Eirene RR4",
+   "PerkOne": "Faucon SS1",
+   "PerkTwo": "Performance Bonus",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Unflinching"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Event Horizon",
+   "PerkOne": "ShortGaze SLH10",
+   "PerkTwo": "Grenadier/Spray and Pray",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Extrasolar RR4",
+   "PerkOne": "ShortGaze SLH10",
+   "PerkTwo": "Eye of the Storm",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Her Fury",
+   "PerkOne": "ShortGaze SLH10",
+   "PerkTwo": "Life Support",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "The Laughing Heart",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Injection Mold",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "LDR 5001",
+   "PerkOne": "ShortGaze SLH10",
+   "PerkTwo": "Life Support",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Seventh Sense",
+   "PerkOne": "ViewTac SLH20/Ambush SLH25",
+   "PerkTwo": "Grenadier",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Firefly"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Tamar-D",
+   "PerkOne": "ATA Scout",
+   "PerkTwo": "Unflinching",
+   "PerkThree": "Performance Bonus",
+   "PerkFour": "Quickdraw"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Tao Hua Yuan",
+   "PerkOne": "ShortGaze SLH10",
+   "PerkTwo": "Eye of the Storm",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Uzume RR4",
+   "PerkOne": "Faucon SS1",
+   "PerkTwo": "Performance Bonus",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Unflinching"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Weyloran's March",
+   "PerkOne": "ShortGaze SLH10",
+   "PerkTwo": "Eye of the Storm",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sniper Rifles",
+   "Name": "Y-09 Longbow Synthesis",
+   "PerkOne": "ShortGaze SLH10",
+   "PerkTwo": "Life Support",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "44 Curtain Call",
+   "PerkOne": "Linear Compensator/Accurized Ballistics/Field Choke",
+   "PerkTwo": "Performance Bonus",
+   "PerkThree": "Reinforced Barrel/Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Bad Counsel IV",
+   "PerkOne": "Aggressive Ballistics",
+   "PerkTwo": "Close and/or Personal",
+   "PerkThree": "Quickdraw/Snapshot",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Burden of Proof XI",
+   "PerkOne": "Linear Compensator/Accurized Ballistics/Field Choke",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Reinforced Barrel/Rifled Barrel",
+   "PerkFour": "Performance Bonus"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "The Comedian",
+   "PerkOne": "Linear Compensator/Accurized Ballistics/Field Choke",
+   "PerkTwo": "Full Auto",
+   "PerkThree": "Reinforced Barrel/Rifled Barrel",
+   "PerkFour": "Performance Bonus"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Conspiracy Theory-D",
+   "PerkOne": "Field Choke",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Reinforced Barrel/Rifled Barrel",
+   "PerkFour": "Performance Bonus"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Her Champion",
+   "PerkOne": "Linear Compensator/Accurized Ballistics/Field Choke",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Reinforced Barrel/Rifled Barrel",
+   "PerkFour": "Performance Bonus"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Jingukogo-D",
+   "PerkOne": "Linear Compensator/Accurized Ballistics/Field Choke",
+   "PerkTwo": "Final Round",
+   "PerkThree": "Rangefinder",
+   "PerkFour": "Rifled Barrel"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Last-Ditch 001",
+   "PerkOne": "CQB Ballistics",
+   "PerkTwo": "Quickdraw",
+   "PerkThree": "Hammer Forged",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Matador 64",
+   "PerkOne": "Aggressive Ballistics",
+   "PerkTwo": "Performance Bonus",
+   "PerkThree": "Reinforced Barrel/Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "The Next Big Thing",
+   "PerkOne": "Linear Compensator/Accurized Ballistics/Field Choke",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Close and/or Personal"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Occam's Razor",
+   "PerkOne": "Linear Compensator/Accurized Ballistics/Field Choke",
+   "PerkTwo": "Performance Bonus",
+   "PerkThree": "Reinforced Barrel/Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Patch-A",
+   "PerkOne": "Linear Compensator/Accurized Ballistics/Field Choke",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Close and/or Personal"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Party Crasher +1",
+   "PerkOne": "Aggressive Ballistics",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel/Reinforced Barrel",
+   "PerkFour": "Performance Bonus"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "The Proud Spire",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Reinforced Barrel/Rifled Barrel",
+   "PerkThree": "Quickdraw/Snapshot",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Stolen Will",
+   "PerkOne": "Linear Compensator/Accurized Ballistics/Field Choke",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Reinforced Barrel/Rifled Barrel",
+   "PerkFour": "Performance Bonus"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Strongbow-D",
+   "PerkOne": "Linear Compensator/Accurized Ballistics/Field Choke",
+   "PerkTwo": "Close and/or Personal",
+   "PerkThree": "Rangefinder",
+   "PerkFour": "Rifled Barrel"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Two to the Morgue",
+   "PerkOne": "Linear Compensator/Accurized Ballistics/Field Choke",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Reinforced Barrel/Rifled Barrel",
+   "PerkFour": "Performance Bonus"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Unraveling Thread",
+   "PerkOne": "CQB Ballistics",
+   "PerkTwo": "Hammer Forged",
+   "PerkThree": "Hand Loaded",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Shotguns",
+   "Name": "Winter's End",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Rifled Barrel",
+   "PerkThree": "Lightweight",
+   "PerkFour": "Life Support/Performance Bonus"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "77 Wizard",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Rangefinder",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Grenadier"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "Ashraven's Flight",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Danger Close",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "The Branded Lord",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Rifled Barrel",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "Darkblade's Spite",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Danger Close",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "Each New Day",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Life Support",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "Ex Astris",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Life Support",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "Hitchhiker FR4",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Danger Close",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "Long Far Gone",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Danger Close",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "Phanta Rei",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Danger Close",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "Saladin's Vigil",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Rifled Barrel",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "Split Shifter Pro",
+   "PerkOne": "Red Dot-OAS",
+   "PerkTwo": "Hip Fire",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Hot Swap"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "Techuen Rage",
+   "PerkOne": "SureShot IS/Reflex",
+   "PerkTwo": "Danger Close",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "Thesan FR4",
+   "PerkOne": "Torch HS2",
+   "PerkTwo": "Hot Swap",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "The Vacancy",
+   "PerkOne": "Torch HS2",
+   "PerkTwo": "Hot Swap",
+   "PerkThree": "Quickdraw",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "The Vortex",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Danger Close",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "The Waiting",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Quickdraw",
+   "PerkThree": "Hammer Forged",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Fusion Rifles",
+   "Name": "Worlds to Come 001",
+   "PerkOne": "Reflex",
+   "PerkTwo": "Snapshot",
+   "PerkThree": "Hammer Forged",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sidearms",
+   "Name": "Anton's Rule",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Zen Moment",
+   "PerkThree": "Hand Loaded",
+   "PerkFour": "Rangefinder/Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sidearms",
+   "Name": "The Binding Blaze",
+   "PerkOne": "Iron Lordly Sights",
+   "PerkTwo": "Hand Loaded/Fitted Stock",
+   "PerkThree": "High Caliber Rounds",
+   "PerkFour": "Rangefinder/Hidden Hand/Zen Moment"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sidearms",
+   "Name": "Conviction II",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Zen Moment",
+   "PerkThree": "Hot Swap",
+   "PerkFour": "High Caliber Rounds"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sidearms",
+   "Name": "Crow's Eye",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Hand Loaded",
+   "PerkThree": "High Caliber Rounds",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sidearms",
+   "Name": "Havoc Pigeon",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Zen Moment",
+   "PerkThree": "Hot Swap",
+   "PerkFour": "High Caliber Rounds"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sidearms",
+   "Name": "Impeacher V",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "High Caliber Rounds/Quickdraw",
+   "PerkThree": "Hand Loaded",
+   "PerkFour": "Rangefinder/Hidden Hand"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sidearms",
+   "Name": "Ironwreath-D",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Zen Moment",
+   "PerkThree": "Hot Swap",
+   "PerkFour": "High Caliber Rounds"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sidearms",
+   "Name": "JabberHakke-D",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Zen Moment",
+   "PerkThree": "Hot Swap",
+   "PerkFour": "High Caliber Rounds"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sidearms",
+   "Name": "Teacup Tempest",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "Zen Moment",
+   "PerkThree": "High Caliber Rounds",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sidearms",
+   "Name": "Queen's Choice",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Rangefinder/Zen Moment",
+   "PerkThree": "High Caliber Rounds",
+   "PerkFour": "Hot Swap"
+ },
+ {
+   "Slot": "Special",
+   "Subtype": "Sidearms",
+   "Name": "The Wormwood",
+   "PerkOne": "SureShot IS/TrueSight IS",
+   "PerkTwo": "High Caliber Rounds/Quickdraw",
+   "PerkThree": "Hand Loaded",
+   "PerkFour": "Rangefinder/Hidden Hand"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "Bane of the Taken",
+   "PerkOne": "Smooth Ballistics",
+   "PerkTwo": "Counterbalance",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "Baron's Ambition",
+   "PerkOne": "Accurized Ballistics/Linear Compensator",
+   "PerkTwo": "Counterbalance/Life Support",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "Bonekruscher",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Feeding Frenzy",
+   "PerkThree": "Quickdraw/Hand-laid Stock",
+   "PerkFour": "Crowd Control"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "Bretomart's Stand",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Hip Fire",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "Chaotic Neutral",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Hip Fire",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "Diluvian 10/4X",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Hip Fire",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Persistence"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "First Citizen IX",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Hip Fire",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Persistence"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "Ruin Wake",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Hip Fire",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "Objection IV",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Hip Fire",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "The Silvered Dread",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Perfect Balance",
+   "PerkThree": "Field Scout",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "The Swarm",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Life Support",
+   "PerkThree": "Rifled Barrel",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "Unending Deluge III",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Counterbalance",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Rangefinder"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "The Variable",
+   "PerkOne": "Linear Compensator",
+   "PerkTwo": "Hip Fire",
+   "PerkThree": "Braced Frame",
+   "PerkFour": "Persistence"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Machine Guns",
+   "Name": "Zombie Apocalypse WF47",
+   "PerkOne": "Linear Compensator/Accurized Ballistics/Field Choke",
+   "PerkTwo": "Life Support/Counterbalance",
+   "PerkThree": "Perfect Balance",
+   "PerkFour": "Hidden Hand"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Rocket Launchers",
+   "Name": "The Ash Factory",
+   "PerkOne": "Warhead Verniers/Hard Launch",
+   "PerkTwo": "Tripod",
+   "PerkThree": "Javelin",
+   "PerkFour": "Grenades and Horseshoes"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Rocket Launchers",
+   "Name": "Disassembly Required",
+   "PerkOne": "Warhead Verniers/Hard Launch",
+   "PerkTwo": "Battle Runner",
+   "PerkThree": "Javelin",
+   "PerkFour": "Grenades and Horseshoes"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Rocket Launchers",
+   "Name": "The Nightmare",
+   "PerkOne": "Warhead Verniers/Hard Launch",
+   "PerkTwo": "Tripod",
+   "PerkThree": "Field Scout",
+   "PerkFour": "Grenades and Horseshoes"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Rocket Launchers",
+   "Name": "SUROS JLB-42",
+   "PerkOne": "Warhead Verniers/Hard Launch",
+   "PerkTwo": "Heavy Payload",
+   "PerkThree": "Grenades and Horseshoes",
+   "PerkFour": "Javelin"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Rocket Launchers",
+   "Name": "SUROS JLB-47",
+   "PerkOne": "Warhead Verniers/Hard Launch",
+   "PerkTwo": "Heavy Payload",
+   "PerkThree": "Grenades and Horsehoes",
+   "PerkFour": "Javelin"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Rocket Launchers",
+   "Name": "Something Wicked",
+   "PerkOne": "Warhead Verniers/Hard Launch",
+   "PerkTwo": "Battle Runner",
+   "PerkThree": "Heavy Payload",
+   "PerkFour": "Grenades and Horseshoes"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Rocket Launchers",
+   "Name": "Steel Oracle Z-11",
+   "PerkOne": "Warhead Verniers/Hard Launch",
+   "PerkTwo": "Tripod",
+   "PerkThree": "Field Scout",
+   "PerkFour": "Grenades and Horseshoes"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Rocket Launchers",
+   "Name": "The Titanium Orchid",
+   "PerkOne": "Hard Launch/Aggressive Launch",
+   "PerkTwo": "Heavy Payload",
+   "PerkThree": "Speed Reload/Flared Magwell",
+   "PerkFour": "Grenades and Horseshoes"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Rocket Launchers",
+   "Name": "Tormod's Bellows",
+   "PerkOne": "Warhead Verniers/Hard Launch",
+   "PerkTwo": "Tripod",
+   "PerkThree": "Heavy Payload",
+   "PerkFour": "Grenades and Horseshoes"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Rocket Launchers",
+   "Name": "Unto Dust 00",
+   "PerkOne": "Warhead Verniers/Hard Launch",
+   "PerkTwo": "Field Scout",
+   "PerkThree": "Heavy Payload",
+   "PerkFour": "Grenades and Horseshoes"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Rocket Launchers",
+   "Name": "The Vertigo",
+   "PerkOne": "Warhead Verniers/Hard Launch",
+   "PerkTwo": "Heavy Payload",
+   "PerkThree": "Grenades and Horseshoes",
+   "PerkFour": "Javelin"
+ },
+ {
+   "Slot": "Heavy",
+   "Subtype": "Rocket Launchers",
+   "Name": "The Warpath",
+   "PerkOne": "Warhead Verniers/Hard Launch",
+   "PerkTwo": "Field Scout",
+   "PerkThree": "Javelin",
+   "PerkFour": "Grenades and Horseshoes"
+ }
+]
