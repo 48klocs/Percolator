@@ -174,6 +174,10 @@ var percolator = {
         var translatedWeapons = [];
 
         $.each(items.Response.data.items, function(i, rawItem) {
+            if(!rawItem.damageType) {
+                return true;
+            }
+
             var weaponName = self.getWeaponName(rawItem.itemHash, items.Response.definitions.items);
 
             var translatedWeapon = {};
