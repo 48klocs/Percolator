@@ -18,6 +18,8 @@ var percolator = {
 
     },
     initEvents: function() {
-
+        $('#fetchMembership').click(function() {
+            alert("Clicked");
+        });
     }
 };
