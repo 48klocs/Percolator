@@ -109,10 +109,9 @@ var percolator = {
 
             $("#characterList").append("<li>{0}</li>".format(translatedClass));
 
-            var outputCharacter = {
-                className = translatedClass,
-                characterId = characterId
-            };
+            var outputCharacter = {};
+            outputCharacter.className = translatedClass;
+            outputCharacter.characterId = characterId;
 
             characterList.push(outputCharacter);
         });
