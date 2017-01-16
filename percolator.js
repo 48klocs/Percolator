@@ -11,8 +11,17 @@ String.prototype.format = String.prototype.f = function() {
 
 var percolator = {
     membershipId: undefined,
-    getBungieData: function() {
+    pveWeapons: undefined,
+    pvpWeapons: undefined,
+    getWeaponData: function() {
+        var self = this;
+        $.getJSON('pveWeapons.json', function(data) {
+            self.pveWeapons = data;
+        });
 
+        $.getJSON('pvpWeapons.json', function(data) {
+            self.pvpWeapons = data;
+        });
     },
     fetchMembershipIdFromBungie: function(apiKey, userName, networkId) {
         var bungieUrl = 'https://www.bungie.net/Platform/Destiny/{0}/Stats/GetMembershipIdByDisplayName/{1}/'.format(networkId, userName);
@@ -132,6 +141,20 @@ var percolator = {
                 return 'Unknown';
         }
     },
+    findBlessed: function() {
+        this.findBlessedPve();
+        this.findBlessedPvp();
+    },
+    findBlessedPve: function() {
+
+    },
+    findBlessedPvp: function() {
+
+    },
+    init: function() { 
+        this.getWeaponData();
+        this.initEvents();
+    },
     initEvents: function() {
         var self = this;
         $('#fetchMembership').click(function() {
@@ -140,6 +163,10 @@ var percolator = {
 
         $("#extractCharacters").click(function() {
             self.extractCharacters();
+        });
+
+        $("#findBlessed").click(function() {
+            self.findBlessed();
         });
     }
 };
