@@ -1,10 +1,32 @@
+//http://stackoverflow.com/questions/1038746/equivalent-of-string-format-in-jquery
+String.prototype.format = String.prototype.f = function() {
+    var s = this,
+        i = arguments.length;
+
+    while (i--) {
+        s = s.replace(new RegExp('\\{' + i + '\\}', 'gm'), arguments[i]);
+    }
+    return s;
+};
+
 var percolator = {
     membershipId: undefined,
     getBungieData: function() {
 
     },
     fetchMembershipIdFromBungie: function(apiKey, userName, networkId) {
-        return "YOLO";
+        var bungieUrl = 'http://www.bungie.net/Platform/Destiny/{0}/Stats/GetMembershipIdByDisplayName/{1}/'.format(networkId, userName);
+
+        $.ajax({
+            url: bungieUrl,
+            type: 'get',
+            headers: {
+                'X-API-Key': apiKey
+            },
+            success: function(data) {
+                console.info(data);
+            }
+        });
     },
     getMembershipId: function() {
         if(this.membershipId) {
@@ -20,13 +42,31 @@ var percolator = {
         $("#membershipId").text(membershipId);
     },
     getApiKey: function() {
-        return $("#apiKey").val();
+        var apiKey = $("#apiKey").val();
+
+        if(!apiKey) {
+            throw "Missing API Key.";
+        }
+
+        return apiKey;
     },
     getUserName: function() {
-        return $("#userName").val();
+        var userName = $("#userName").val();
+
+        if(!userName) {
+            throw "Missing user name.";
+        }
+
+        return userName;
     },
     getNetwork: function() {
-        return $("#onlineNetwork").val();
+        var networkId = $("#onlineNetwork").val();
+
+        if(!networkId) {
+            throw "Missing network selection.";
+        }
+
+        return networkId;
     },
     setMembershipId: function(membershipId) {
 
