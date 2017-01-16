@@ -100,12 +100,24 @@ var percolator = {
         var self = this;
         var accountSummary = JSON.parse($("#accountSummary").val());
 
+        var characterList = [];
+
         $(accountSummary.Response.data.characters).each(function(i, character) {
             var classHash = character.characterBase.classHash;
+            var characterId = character.characterBase.characterId;
             var translatedClass = self.translateClassHash(classHash);
 
             $("#characterList").append("<li>{0}</li>".format(translatedClass));
+
+            var outputCharacter = {
+                className = translatedClass,
+                characterId = characterId
+            };
+
+            characterList.push(outputCharacter);
         });
+
+        return characterList;
     },
     translateClassHash: function(classHash) {
         // https://github.com/sebastianbarfurth/destiny-php/blob/master/src/Destiny/Support/Translators/HashTranslator.php
