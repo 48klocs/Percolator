@@ -11,6 +11,7 @@ String.prototype.format = String.prototype.f = function() {
 
 var percolator = {
     membershipId: undefined,
+    characterItems: undefined,
     pveWeapons: undefined,
     pvpWeapons: undefined,
     getWeaponData: function() {
@@ -21,6 +22,10 @@ var percolator = {
 
         $.getJSON('pvpWeapons.json', function(data) {
             self.pvpWeapons = data;
+        });
+
+        $.getJSON('characterItems.json', function(data) {
+            self.characterItems = data;
         });
     },
     fetchMembershipIdFromBungie: function(apiKey, userName, networkId) {
@@ -111,7 +116,7 @@ var percolator = {
 
         var characterList = [];
 
-        $(accountSummary.Response.data.characters).each(function(i, character) {
+        $.each(accountSummary.Response.data.characters, function(i, character) {
             var classHash = character.characterBase.classHash;
             var characterId = character.characterBase.characterId;
             var translatedClass = self.translateClassHash(classHash);
@@ -142,25 +147,39 @@ var percolator = {
         }
     },
     getWeaponName: function(itemHash, items) {
-        $.grep(items, function(i, sourceItem) {
-            if(sourceItem.itemHash == itemHash) {
-                return sourceItem.itemName;
+        var weaponName = "Unknown Weapon";
+
+        $.each(items, function(n, item) {
+            if(item.itemHash == itemHash) {
+                weaponName = item.itemName;
+                return false;
             }
         });
 
-        return "Unknown Weapon";
+        return weaponName;
+    },
+    getItems: function() {
+        if(this.characterItems) {
+            return this.characterItems;
+        }
+
+        var rawCharacterWeaponData = JSON.parse($("#characterInventory").val());
+
+        return rawCharacterWeaponData;
     },
     translateWeapons: function() {
         var self = this;
-
-        var rawCharacterWeaponData = JSON.parse($("#characterInventory").val());
+        var items = this.getItems();
+        
         var translatedWeapons = [];
 
-        $(rawCharacterWeaponData.Response.data.items).each(function(i, rawItem) {
-            var weaponName = self.getWeaponName(rawItem.itemHash, rawCharacterWeaponData.Response.definitions.items);
+        $.each(items.Response.data.items, function(i, rawItem) {
+            var weaponName = self.getWeaponName(rawItem.itemHash, items.Response.definitions.items);
 
             var translatedWeapon = {};
             translatedWeapon.weaponName = weaponName;
+
+            translatedWeapons.push(translatedWeapon);
         });
 
         return translatedWeapons;
@@ -172,13 +191,13 @@ var percolator = {
         this.findBlessedPvp(weapons);
     },
     findBlessedPve: function(weapons) {
-        $(weapons).each(function(n, weapon) {
-            $('#pveWeapons').append("<li>{0}</li>".format(weapon.weaponName));
+        $.each(weapons, function(n, weapon) {
+            $('#pveWeaponList').append("<li>{0}</li>".format(weapon.weaponName));
         });
     },
     findBlessedPvp: function(weapons) {
-        $(weapons).each(function(n, weapon) {
-            $('#pvpWeapons').append("<li>{0}</li>".format(weapon.weaponName));
+        $.each(weapons, function(n, weapon) {
+            $('#pvpWeaponList').append("<li>{0}</li>".format(weapon.weaponName));
         });
     },
     init: function() { 
