@@ -141,15 +141,45 @@ var percolator = {
                 return 'Unknown';
         }
     },
+    getWeaponName: function(itemHash, items) {
+        $.grep(items, function(i, sourceItem) {
+            if(sourceItem.itemHash == itemHash) {
+                return sourceItem.itemName;
+            }
+        });
+
+        return "Unknown Weapon";
+    },
+    translateWeapons: function() {
+        var self = this;
+
+        var rawCharacterWeaponData = JSON.parse($("#characterInventory").val());
+        var translatedWeapons = [];
+
+        $(rawCharacterWeaponData.Response.data.items).each(function(i, rawItem) {
+            var weaponName = self.getWeaponName(rawItem.itemHash, rawCharacterWeaponData.Response.definitions.items);
+
+            var translatedWeapon = {};
+            translatedWeapon.weaponName = weaponName;
+        });
+
+        return translatedWeapons;
+    },
     findBlessed: function() {
-        this.findBlessedPve();
-        this.findBlessedPvp();
-    },
-    findBlessedPve: function() {
+        var weapons = this.translateWeapons();
 
+        this.findBlessedPve(weapons);
+        this.findBlessedPvp(weapons);
     },
-    findBlessedPvp: function() {
-
+    findBlessedPve: function(weapons) {
+        $(weapons).each(function(n, weapon) {
+            $('#pveWeapons').append("<li>{0}</li>".format(weapon.weaponName));
+        });
+    },
+    findBlessedPvp: function(weapons) {
+        $(weapons).each(function(n, weapon) {
+            $('#pvpWeapons').append("<li>{0}</li>".format(weapon.weaponName));
+        });
     },
     init: function() { 
         this.getWeaponData();
