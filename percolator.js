@@ -10,8 +10,6 @@ String.prototype.format = String.prototype.f = function() {
 };
 
 var percolator = {
-    membershipId: undefined,
-    characterItems: undefined,
     pveWeapons: undefined,
     pvpWeapons: undefined,
     getWeaponData: function() {
@@ -24,8 +22,6 @@ var percolator = {
             self.pvpWeapons = data;
         });
 
-        $.getJSON('characterItems.json', function(data) {
-            self.characterItems = data;
         });
     },
     fetchMembershipIdFromBungie: function(apiKey, userName, networkId) {
@@ -41,96 +37,6 @@ var percolator = {
                 console.info(data);
             }
         });
-    },
-    getMembershipId: function() {
-        if(this.membershipId) {
-            return this.membershipId;
-        }
-
-        var apiKey = this.getApiKey();
-        var userName = this.getUserName();
-        var networkId = this.getNetwork();
-
-        var membershipId = this.fetchMembershipIdFromBungie(apiKey, userName, networkId);
-
-        this.setMembershipId(membershipId);
-    },
-    getApiKey: function() {
-        var apiKey = $("#apiKey").val();
-
-        if(!apiKey) {
-            throw "Missing API Key.";
-        }
-
-        return apiKey;
-    },
-    getUserName: function() {
-        var userName = $("#userName").val();
-
-        if(!userName) {
-            throw "Missing user name.";
-        }
-
-        return userName;
-    },
-    getNetwork: function() {
-        var networkId = $("#onlineNetwork").val();
-
-        if(!networkId) {
-            throw "Missing network selection.";
-        }
-
-        return networkId;
-    },
-    setMembershipId: function(membershipId) {
-        $("#membershipId").text(membershipId);
-    },
-    fetchAccountSummary: function(apiKey, networkId, membershipId)
-    {
-        var bungieUrl = 'https://www.bungie.net/Platform/Destiny/{0}/Account/{1}/Summary/'.format(networkId, membershipId);
-
-        $.ajax({
-            url: bungieUrl,
-            type: 'get',
-            headers: {
-                'X-API-Key': apiKey
-            },
-            success: function(data) {
-                console.info(data);
-            }
-        });
-    },
-    getAccountSummary: function(membershipId) {
-        var networkId = this.getNetwork();
-        var apiKey = this.getApiKey();
-
-        var accountSummary = this.fetchAccountSummary(apiKey, networkId, membershipId);
-
-        $("#accountSummary").append(accountSummary);
-
-        this.extractCharacters();
-    },
-    extractCharacters: function() {
-        var self = this;
-        var accountSummary = JSON.parse($("#accountSummary").val());
-
-        var characterList = [];
-
-        $.each(accountSummary.Response.data.characters, function(i, character) {
-            var classHash = character.characterBase.classHash;
-            var characterId = character.characterBase.characterId;
-            var translatedClass = self.translateClassHash(classHash);
-
-            $("#characterList").append("<li>{0}</li>".format(translatedClass));
-
-            var outputCharacter = {};
-            outputCharacter.className = translatedClass;
-            outputCharacter.characterId = characterId;
-
-            characterList.push(outputCharacter);
-        });
-
-        return characterList;
     },
     translateClassHash: function(classHash) {
         // https://github.com/sebastianbarfurth/destiny-php/blob/master/src/Destiny/Support/Translators/HashTranslator.php
@@ -163,45 +69,20 @@ var percolator = {
             return this.characterItems;
         }
 
-        var rawCharacterWeaponData = JSON.parse($("#characterInventory").val());
 
         return rawCharacterWeaponData;
     },
-    translateWeapons: function() {
-        var self = this;
-        var items = this.getItems();
-        
-        var translatedWeapons = [];
-
-        $.each(items.Response.data.items, function(i, rawItem) {
-            if(!rawItem.damageType) {
-                return true;
-            }
-
-            var weaponName = self.getWeaponName(rawItem.itemHash, items.Response.definitions.items);
-
-            var translatedWeapon = {};
-            translatedWeapon.weaponName = weaponName;
-
-            translatedWeapons.push(translatedWeapon);
-        });
-
-        return translatedWeapons;
-    },
     findBlessed: function() {
-        var weapons = this.translateWeapons();
 
         this.findBlessedPve(weapons);
         this.findBlessedPvp(weapons);
     },
     findBlessedPve: function(weapons) {
         $.each(weapons, function(n, weapon) {
-            $('#pveWeaponList').append("<li>{0}</li>".format(weapon.weaponName));
         });
     },
     findBlessedPvp: function(weapons) {
         $.each(weapons, function(n, weapon) {
-            $('#pvpWeaponList').append("<li>{0}</li>".format(weapon.weaponName));
         });
     },
     init: function() { 

@@ -2,6 +2,7 @@
     <head>
         <title>Percolator</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="jquery.csv.js"></script>
         <script src="percolator.js"></script>
         <script>
             $(function(){
@@ -12,72 +13,6 @@
     <body>
         <form>
             <table>
-                <tr>
-                    <td>
-                        <input type="text" name="apiKey" id="apiKey" />
-                    </td>
-                    <td>
-                        <label for="apiKey">Destiny API Key</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <select name="onlineNetwork" id="onlineNetwork">
-                            <option value="1">XBox Live</option>
-                            <option value="2">PSN</option>
-                        </select>
-                    </td>
-                    <td>
-                        <label for="onlineNetwork">Network</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="text" name="userName" id="userName" />
-                    </td>
-                    <td>
-                        <label for="userName">User Name</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="button" value="Go Fetch" id="fetchMembership" />
-                    </td>
-                    <td>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <span id="membershipId">4611686018452806521</span>
-                    </td>
-                    <td>
-                        Membership ID
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <textarea id="accountSummary"></textarea>
-                    <td>
-                    <td>
-                        <label for="accountSummary">Account Summary</label>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="button" value="Extract Characters" id="extractCharacters" />
-                    </td>
-                    <td>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Characters
-                    </td>
-                    <td>
-                        <ul id="characterList">
-                        </ul>
-                    </td>
-                </tr>
                 <tr>
                     <td>
                         <textarea id="characterInventory"></textarea>
