@@ -14,6 +14,7 @@ var percolator = {
     pvpWeapons: undefined,
     getWeaponData: function() {
         var self = this;
+
         $.getJSON('pveWeapons.json', function(data) {
             self.pveWeapons = data;
         });
@@ -22,20 +23,8 @@ var percolator = {
             self.pvpWeapons = data;
         });
 
-        });
-    },
-    fetchMembershipIdFromBungie: function(apiKey, userName, networkId) {
-        var bungieUrl = 'https://www.bungie.net/Platform/Destiny/{0}/Stats/GetMembershipIdByDisplayName/{1}/'.format(networkId, userName);
-
-        $.ajax({
-            url: bungieUrl,
-            type: 'get',
-            headers: {
-                'X-API-Key': apiKey
-            },
-            success: function(data) {
-                console.info(data);
-            }
+        $.get('destinyWeapons.csv', function(data) {
+            self.characterItems = $.csv.toObjects(data);
         });
     },
     translateClassHash: function(classHash) {
@@ -69,20 +58,24 @@ var percolator = {
             return this.characterItems;
         }
 
+        var rawCharacterWeaponData = $.csv.toObjects($("#characterInventory").val());
 
         return rawCharacterWeaponData;
     },
     findBlessed: function() {
+        var weapons = this.getItems();
 
         this.findBlessedPve(weapons);
         this.findBlessedPvp(weapons);
     },
     findBlessedPve: function(weapons) {
         $.each(weapons, function(n, weapon) {
+            $('#pveWeaponList').append("<li>{0}</li>".format(weapon.Name));
         });
     },
     findBlessedPvp: function(weapons) {
         $.each(weapons, function(n, weapon) {
+            $('#pvpWeaponList').append("<li>{0}</li>".format(weapon.Name));
         });
     },
     init: function() { 
