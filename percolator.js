@@ -68,6 +68,28 @@ var percolator = {
         this.findBlessedPve(weapons);
         this.findBlessedPvp(weapons);
     },
+    getMatchGrade: function(matchAmount) {
+        switch(matchAmount) {
+            case 0:
+                return "bad";
+            case 1:
+                return "forgettable";
+            case 2:
+                return "passable";
+            case 3:
+                return "good";
+            case 4:
+                return "excellent";
+            default:
+                return "unknown";
+        }
+    },
+    getWeaponLocation: function(weapon) {
+        return weapon[6];
+    },
+    getInventoryWeaponLightLevel: function(weapon) {
+        return weapon[4];
+    },
     findBlessedPve: function(weapons) {
         var self = this;
 
@@ -77,7 +99,12 @@ var percolator = {
 
                 if(matchAmount > 2)
                 {
-                    $('#pveWeaponList').append("<li>{0} - {1}</li>".format(self.getInventoryWeaponName(weapon), matchAmount));
+                    var matchGrade = self.getMatchGrade(matchAmount);
+                    var weaponName = self.getInventoryWeaponName(weapon);
+                    var lightLevel = self.getInventoryWeaponLightLevel(weapon);
+                    var weaponLocation = self.getWeaponLocation(weapon);
+
+                    $('#pveWeaponList').append("<li>The LL {0} {1} located on/in your {2} looks {3}.</li>".format(lightLevel, weaponName, weaponLocation, matchGrade));
                 }
             })
         });
@@ -91,7 +118,12 @@ var percolator = {
 
                 if(matchAmount > 2)
                 {
-                    $('#pvpWeaponList').append("<li>{0} - {1}</li>".format(self.getInventoryWeaponName(weapon), matchAmount));
+                    var matchGrade = self.getMatchGrade(matchAmount);
+                    var weaponName = self.getInventoryWeaponName(weapon);
+                    var lightLevel = self.getInventoryWeaponLightLevel(weapon);
+                    var weaponLocation = self.getWeaponLocation(weapon);
+
+                    $('#pvpWeaponList').append("<li>The LL {0} {1} located on/in your {2} looks {3}.</li>".format(lightLevel, weaponName, weaponLocation, matchGrade));
                 }
             })
         });
