@@ -6,6 +6,6 @@ So.  If you happen to use [Destiny Item Manager](https://destinyitemmanager.com/
 
 Open that CSV file up and paste the text  in to the textarea, then ask it nicely to find you some community-blessed gear.  It probably will!  Like, I really hope it will.
 
-By default, it uses my inventory, which tickles me.  But probl
+By default, it uses my inventory, which I admit is less useful for you than for me.
 
 [It's time for the percolator.](https://www.youtube.com/watch?v=_UlhLd76IzQ)
