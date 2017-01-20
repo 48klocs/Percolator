@@ -155,12 +155,17 @@ var percolator = {
     getBlessedWeaponPerkFour: function(blessedWeapon) {
         return blessedWeapon[4];
     },
-    getPerkNodes: function(inventoryWeapon) {
+    getPerkNodes: function(inventoryWeapon, wantSelectedPerks) {
         var perkNames = [];
 
         for(var i = 21; i < 40; i++) {
             if(inventoryWeapon[i]) {
                 var perkName = inventoryWeapon[i];
+
+                if ((wantSelectedPerks) &&
+                    (perkName.indexOf("*") == -1)) {
+                    continue;
+                }
 
                 var strippedPerkName = perkName.replace(/\*/g , "");
                 perkNames.push(strippedPerkName);
@@ -208,7 +213,8 @@ var percolator = {
             if(newWeaponName.length > 0) {
                 var newSourceItem = []
                     .concat(newWeaponName)
-                    .concat(self.getPerkNodes(newInventoryWeapon));
+                    .concat(self.getPerkNodes(newInventoryWeapon,
+                                              true));
 
                 newSourceItems.push(newSourceItem);
             }
@@ -227,7 +233,7 @@ var percolator = {
         var newSourceItems = this.extractNewSourceItems();
 
         $.each(newSourceItems, function(n, newSourceItem) {
-            $("#percolatorSourceWeaponry").append("{0}\n".format(newSourceItem.join(",")));
+            $("#percolatorSourceWeaponry").append("{0}\n\n".format(newSourceItem.join(",")));
         });
 
         if(this.shouldAddToPvE) {
