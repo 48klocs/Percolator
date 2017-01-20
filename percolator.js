@@ -95,6 +95,20 @@ var percolator = {
     getInventoryWeaponName: function(inventoryWeapon) {
         return inventoryWeapon[0];
     },
+    getPerkNodes: function(inventoryWeapon) {
+        var perkNames = [];
+
+        for(var i = 21; i < 40; i++) {
+            if(inventoryWeapon[i]) {
+                var perkName = inventoryWeapon[i];
+
+                var strippedPerkName = perkName.replace(/\*/g , "");
+                perkNames.push(strippedPerkName);
+            }
+        }
+
+        return perkNames;
+    },
     weaponMatchesBlessedWeapon: function(inventoryWeapon, blessedWeapon) {
         return (this.getInventoryWeaponName(inventoryWeapon) == blessedWeapon.Name);
     },
