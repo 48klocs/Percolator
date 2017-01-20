@@ -99,12 +99,9 @@ var percolator = {
 
                 if(matchAmount > 2)
                 {
-                    var matchGrade = self.getMatchGrade(matchAmount);
-                    var weaponName = self.getInventoryWeaponName(weapon);
-                    var lightLevel = self.getInventoryWeaponLightLevel(weapon);
-                    var weaponLocation = self.getWeaponLocation(weapon);
+                    var hypeMessage = self.getHypeMessage(weapon, matchAmount);
 
-                    $('#pveWeaponList').append("<li>The LL {0} {1} located on/in your {2} looks {3}.</li>".format(lightLevel, weaponName, weaponLocation, matchGrade));
+                    $('#pveWeaponList').append("<li>{0}</li>".format(hypeMessage));
                 }
             })
         });
@@ -118,15 +115,21 @@ var percolator = {
 
                 if(matchAmount > 2)
                 {
-                    var matchGrade = self.getMatchGrade(matchAmount);
-                    var weaponName = self.getInventoryWeaponName(weapon);
-                    var lightLevel = self.getInventoryWeaponLightLevel(weapon);
-                    var weaponLocation = self.getWeaponLocation(weapon);
+                    var hypeMessage = self.getHypeMessage(weapon, matchAmount);
 
-                    $('#pvpWeaponList').append("<li>The LL {0} {1} located on/in your {2} looks {3}.</li>".format(lightLevel, weaponName, weaponLocation, matchGrade));
+                    $('#pvpWeaponList').append("<li>{0}</li>".format(hypeMessage));
                 }
             })
         });
+    },
+    getHypeMessage: function(inventoryWeapon, matchAmount) {
+        var matchGrade = this.getMatchGrade(matchAmount);
+        var weaponName = this.getInventoryWeaponName(inventoryWeapon);
+        var lightLevel = this.getInventoryWeaponLightLevel(inventoryWeapon);
+        var weaponLocation = this.getWeaponLocation(inventoryWeapon);
+        var perkNodeDescription = this.getPerkNodes(inventoryWeapon).join(", ");
+
+        return "The LL {0} {1} ({2}) located on/in your {3} looks {4}.".format(lightLevel, weaponName, perkNodeDescription, weaponLocation, matchGrade);
     },
     getInventoryWeaponName: function(inventoryWeapon) {
         return inventoryWeapon[0];
