@@ -223,11 +223,11 @@ var percolator = {
         return newSourceItems;
     },
     shouldAddToPvP: function() {
-        return $("#destinationList").val() == "PvP";
+        return ($("#destinationList").val() == "PvP");
     },
     
     shouldAddToPvE: function() {
-        return $("#destinationList").val() == "PvE";
+        return ($("#destinationList").val() == "PvE");
     },
     addAndTranslate: function() {
         var newSourceItems = this.extractNewSourceItems();
