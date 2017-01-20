@@ -71,15 +71,15 @@ var percolator = {
     getMatchGrade: function(matchAmount) {
         switch(matchAmount) {
             case 0:
-                return "bad";
+                return "Bad";
             case 1:
-                return "forgettable";
+                return "Forgettable";
             case 2:
-                return "passable";
+                return "Passable";
             case 3:
-                return "good";
+                return "Good";
             case 4:
-                return "excellent";
+                return "Excellent";
             default:
                 return "unknown";
         }
@@ -102,7 +102,11 @@ var percolator = {
                 {
                     var hypeMessage = self.getHypeMessage(weapon, pveWeapon, matchAmount);
 
-                    $('#pveWeaponList').append("<li>{0}</li>".format(hypeMessage));
+                    if (matchAmount > 3) {
+                        $('#pveWeaponList').prepend("<li>{0}</li>".format(hypeMessage));
+                    } else {
+                        $('#pveWeaponList').append("<li>{0}</li>".format(hypeMessage));
+                    }
                 }
             })
         });
@@ -119,7 +123,11 @@ var percolator = {
                 {
                     var hypeMessage = self.getHypeMessage(weapon, pvpWeapon, matchAmount);
 
-                    $('#pvpWeaponList').append("<li>{0}</li>".format(hypeMessage));
+                    if (matchAmount > 3) {
+                        $('#pvpWeaponList').prepend("<li>{0}</li>".format(hypeMessage));
+                    } else {
+                        $('#pvpWeaponList').append("<li>{0}</li>".format(hypeMessage));
+                    }
                 }
             })
         });
@@ -133,11 +141,11 @@ var percolator = {
                          this.getBlessedWeaponPerkTwo(blessedWeapon),
                          this.getBlessedWeaponPerkThree(blessedWeapon),
                          this.getBlessedWeaponPerkFour(blessedWeapon)];
-        var perkNodeDescription = perkNodes.join(", ");
+        var perkNodeDescription = perkNodes.join("</li><li>");
 
-        return "The LL {0} {1} ({2}) located on/in your {3} looks {4}.".format(lightLevel, weaponName, perkNodeDescription, weaponLocation, matchGrade);
+        return "<span class='grade {4}'>{4}</span>: <span class='ll'>{0}</span> <span class='name'>{1}</span> <span class='location'>{3}</span> <ul class='perks'><li>{2}</li></ul>".format(lightLevel, weaponName, perkNodeDescription, weaponLocation, matchGrade);
     },
-    getInventoryWeaponName: function(inventoryWeapon) {
+    getInventoryWeaponName: function (inventoryWeapon) {
         return inventoryWeapon[0];
     },
     getBlessedWeaponName: function(blessedWeapon) {

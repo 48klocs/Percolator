@@ -1,0 +1,24 @@
+body {
+  background: #434444;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.ll {
+  color: #f5dc56;
+}
+.Excellent {
+  font-weight: bold;
+}
+.name {
+  font-weight: bold;
+}
+.location {
+  font-size: .8em;
+  color: #e0e0e0;
+}
+.perks {
+  font-size: .8em;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  color: #e0e0e0;
+}
