@@ -4,7 +4,7 @@ Which is awesome and all, but I am a very important person and have very importa
 
 So.  If you happen to use [Destiny Item Manager](https://destinyitemmanager.com/), go to Settings -> Download Spreadsheets and choose weapons.
 
-Open that CSV file up and paste the text  in to the textarea, then ask it nicely to find you some community-blessed gear.  It probably will!  Like, I really hope it will.
+Open that CSV file up (in a text editor, not in Excel) and paste the text in to the textarea, then ask it nicely to find you some community-blessed gear.  It probably will!  Like, I really hope it will.
 
 By default, it uses my inventory, which I admit is less useful for you than for me.
 
