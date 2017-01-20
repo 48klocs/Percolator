@@ -8,6 +8,8 @@ Open that CSV file up and paste the text  in to the textarea, then ask it nicely
 
 By default, it uses my inventory, which I admit is less useful for you than for me.
 
-You can see the spreadsheets that is uses for its PvE/PvP rolls here.  If you have a roll that makes you happy, feel free to slide me a PR  to update the particular CSV with that bonus line.
+You can see the spreadsheets that is uses for its PvE/PvP rolls here.
+
+If you have a roll that makes you happy, I've added a new add and translate (DIM data) feature.  Paste your sweet roll from DIM's CSV output in to the box and tell it whether it's a PvE or PvP roll.  It'll add it to the list of known good weapons and reflect it the next time you find blessed weapons.  It'll also generate CSV that you can send me.
 
 [It's time for the percolator.](https://www.youtube.com/watch?v=_UlhLd76IzQ)
