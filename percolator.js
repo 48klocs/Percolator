@@ -54,7 +54,7 @@ var percolator = {
         return weaponName;
     },
     getItems: function() {
-        if(this.characterItems) {
+        if(!($("#characterInventory").val())) {
             return this.characterItems;
         }
 
