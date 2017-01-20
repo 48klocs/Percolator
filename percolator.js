@@ -110,7 +110,26 @@ var percolator = {
         return perkNames;
     },
     weaponMatchesBlessedWeapon: function(inventoryWeapon, blessedWeapon) {
-        return (this.getInventoryWeaponName(inventoryWeapon) == blessedWeapon.Name);
+        var inventoryWeaponPerks = this.getPerkNodes(inventoryWeapon);
+
+        if(inventoryWeaponPerks.length == 0) {
+            return false;
+        }
+
+        return ((this.getInventoryWeaponName(inventoryWeapon) == blessedWeapon.Name) &&
+                (this.weaponHasPerk(inventoryWeaponPerks, blessedWeapon.PerkOne)) &&
+                (this.weaponHasPerk(inventoryWeaponPerks, blessedWeapon.PerkTwo)) &&
+                (this.weaponHasPerk(inventoryWeaponPerks, blessedWeapon.PerkThree)) &&
+                (this.weaponHasPerk(inventoryWeaponPerks, blessedWeapon.PerkFour)));
+    },
+    weaponHasPerk: function(inventoryWeaponPerks, particularPerk) {
+        for(var inventoryWeaponPerk in inventoryWeaponPerks) {
+            if(particularPerk.indexOf(inventoryWeaponPerk) != -1) {
+                return true;
+            }
+        }
+
+        return false;
     },
     init: function() { 
         this.getWeaponData();
