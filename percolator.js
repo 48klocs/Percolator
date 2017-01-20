@@ -100,7 +100,7 @@ var percolator = {
 
                 if(matchAmount > 2)
                 {
-                    var hypeMessage = self.getHypeMessage(weapon, matchAmount);
+                    var hypeMessage = self.getHypeMessage(weapon, pveWeapon, matchAmount);
 
                     $('#pveWeaponList').append("<li>{0}</li>".format(hypeMessage));
                 }
@@ -117,19 +117,23 @@ var percolator = {
 
                 if(matchAmount > 2)
                 {
-                    var hypeMessage = self.getHypeMessage(weapon, matchAmount);
+                    var hypeMessage = self.getHypeMessage(weapon, pvpWeapon, matchAmount);
 
                     $('#pvpWeaponList').append("<li>{0}</li>".format(hypeMessage));
                 }
             })
         });
     },
-    getHypeMessage: function(inventoryWeapon, matchAmount) {
+    getHypeMessage: function(inventoryWeapon, blessedWeapon, matchAmount) {
         var matchGrade = this.getMatchGrade(matchAmount);
         var weaponName = this.getInventoryWeaponName(inventoryWeapon);
         var lightLevel = this.getInventoryWeaponLightLevel(inventoryWeapon);
         var weaponLocation = this.getWeaponLocation(inventoryWeapon);
-        var perkNodeDescription = this.getPerkNodes(inventoryWeapon).join(", ");
+        var perkNodes = [this.getBlessedWeaponPerkOne(blessedWeapon),
+                         this.getBlessedWeaponPerkTwo(blessedWeapon),
+                         this.getBlessedWeaponPerkThree(blessedWeapon),
+                         this.getBlessedWeaponPerkFour(blessedWeapon)];
+        var perkNodeDescription = perkNodes.join(", ");
 
         return "The LL {0} {1} ({2}) located on/in your {3} looks {4}.".format(lightLevel, weaponName, perkNodeDescription, weaponLocation, matchGrade);
     },
