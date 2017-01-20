@@ -15,12 +15,12 @@ var percolator = {
     getWeaponData: function() {
         var self = this;
 
-        $.getJSON('pveWeapons.json', function(data) {
-            self.pveWeapons = data;
+        $.get('pveWeapons.csv', function(data) {
+            self.pveWeapons = $.csv.toArrays(data);
         });
 
-        $.getJSON('pvpWeapons.json', function(data) {
-            self.pvpWeapons = data;
+        $.get('pvpWeapons.csv', function(data) {
+            self.pvpWeapons = $.csv.toArrays(data);
         });
 
         $.get('destinyWeapons.csv', function(data) {
@@ -99,6 +99,21 @@ var percolator = {
     getInventoryWeaponName: function(inventoryWeapon) {
         return inventoryWeapon[0];
     },
+    getBlessedWeaponName: function(blessedWeapon) {
+        return blessedWeapon[0];
+    },
+    getBlessedWeaponPerkOne: function(blessedWeapon) {
+        return blessedWeapon[1];
+    },
+    getBlessedWeaponPerkTwo: function(blessedWeapon) {
+        return blessedWeapon[2];
+    },
+    getBlessedWeaponPerkThree: function(blessedWeapon) {
+        return blessedWeapon[3];
+    },
+    getBlessedWeaponPerkFour: function(blessedWeapon) {
+        return blessedWeapon[4];
+    },
     getPerkNodes: function(inventoryWeapon) {
         var perkNames = [];
 
@@ -117,15 +132,15 @@ var percolator = {
         var inventoryWeaponPerks = this.getPerkNodes(inventoryWeapon);
 
         if ((inventoryWeaponPerks.length == 0)  ||
-            (this.getInventoryWeaponName(inventoryWeapon) != blessedWeapon.Name)) {
+            (this.getInventoryWeaponName(inventoryWeapon) != this.getBlessedWeaponName(blessedWeapon))) {
             return 0;
         }
 
         var matchCount = 0;
-        matchCount += (this.weaponHasPerk(inventoryWeaponPerks, blessedWeapon.PerkOne));
-        matchCount += (this.weaponHasPerk(inventoryWeaponPerks, blessedWeapon.PerkTwo));
-        matchCount += (this.weaponHasPerk(inventoryWeaponPerks, blessedWeapon.PerkThree));
-        matchCount += (this.weaponHasPerk(inventoryWeaponPerks, blessedWeapon.PerkFour));
+        matchCount += (this.weaponHasPerk(inventoryWeaponPerks, this.getBlessedWeaponPerkOne(blessedWeapon)));
+        matchCount += (this.weaponHasPerk(inventoryWeaponPerks, this.getBlessedWeaponPerkTwo(blessedWeapon)));
+        matchCount += (this.weaponHasPerk(inventoryWeaponPerks, this.getBlessedWeaponPerkThree(blessedWeapon)));
+        matchCount += (this.weaponHasPerk(inventoryWeaponPerks, this.getBlessedWeaponPerkFour(blessedWeapon)));
 
         return matchCount;
     },
@@ -146,13 +161,6 @@ var percolator = {
     },
     initEvents: function() {
         var self = this;
-        $('#fetchMembership').click(function() {
-            self.getMembershipId();
-        });
-
-        $("#extractCharacters").click(function() {
-            self.extractCharacters();
-        });
 
         $("#findBlessed").click(function() {
             self.findBlessed();
