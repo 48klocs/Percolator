@@ -22,3 +22,15 @@ body {
   margin-bottom: .5em;
   color: #e0e0e0;
 }
+a:link {
+    color: yellow;
+}
+a:visited {
+    color: cyan;
+}
+a:hover {
+    color: lightgreen;
+}
+a:active {
+    color: hotpink;
+} 
