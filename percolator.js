@@ -92,6 +92,7 @@ var percolator = {
     },
     findBlessedPve: function(weapons) {
         var self = this;
+        $('#pveWeaponList').empty();
 
         $.each(weapons, function(n, weapon) {
             $.each(self.pveWeapons, function(n, pveWeapon) {
@@ -108,6 +109,7 @@ var percolator = {
     },
     findBlessedPvp: function(weapons) {
         var self = this;
+        $('#pvpWeaponList').empty();
 
         $.each(weapons, function(n, weapon) {
             $.each(self.pvpWeapons, function(n, pvpWeapon) {
