@@ -69,14 +69,31 @@ var percolator = {
         this.findBlessedPvp(weapons);
     },
     findBlessedPve: function(weapons) {
+        var self = this;
+
         $.each(weapons, function(n, weapon) {
-            $('#pveWeaponList').append("<li>{0}</li>".format(weapon.Name));
+            $.each(self.pveWeapons, function(n, pveWeapon) {
+                if(self.weaponMatchesBlessedWeapon(weapon, pveWeapon))
+                {
+                    $('#pveWeaponList').append("<li>{0}</li>".format(weapon.Name));
+                }
+            })
         });
     },
     findBlessedPvp: function(weapons) {
+        var self = this;
+
         $.each(weapons, function(n, weapon) {
-            $('#pvpWeaponList').append("<li>{0}</li>".format(weapon.Name));
+            $.each(self.pvpWeapons, function(n, pvpWeapon) {
+                if(self.weaponMatchesBlessedWeapon(weapon, pvpWeapon))
+                {
+                    $('#pvpWeaponList').append("<li>{0}</li>".format(weapon.Name));
+                }
+            })
         });
+    },
+    weaponMatchesBlessedWeapon: function(inventoryWeapon, blessedWeapon) {
+        return (inventoryWeapon.Name == blessedWeapon.Name);
     },
     init: function() { 
         this.getWeaponData();
