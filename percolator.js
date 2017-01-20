@@ -158,7 +158,7 @@ var percolator = {
     getPerkNodes: function(inventoryWeapon, wantSelectedPerks) {
         var perkNames = [];
 
-        for(var i = 21; i < 40; i++) {
+        for(var i = 20; i < 40; i++) {
             if(inventoryWeapon[i]) {
                 var perkName = inventoryWeapon[i];
 
