@@ -196,6 +196,48 @@ var percolator = {
 
         return false;
     },
+    extractNewSourceItems: function() {
+        var self = this;
+        var newInventoryWeapons = $.csv.toArrays($("#dimSourceWeaponry").val());
+
+        var newSourceItems = [];
+
+        $.each(newInventoryWeapons, function(n, newInventoryWeapon) {
+            var newWeaponName = self.getInventoryWeaponName(newInventoryWeapon);
+
+            if(newWeaponName.length > 0) {
+                var newSourceItem = []
+                    .concat(newWeaponName)
+                    .concat(self.getPerkNodes(newInventoryWeapon));
+
+                newSourceItems.push(newSourceItem);
+            }
+        });
+
+        return newSourceItems;
+    },
+    shouldAddToPvP: function() {
+        return $("#destinationList").val() == "PvP";
+    },
+    
+    shouldAddToPvE: function() {
+        return $("#destinationList").val() == "PvE";
+    },
+    addAndTranslate: function() {
+        var newSourceItems = this.extractNewSourceItems();
+
+        $.each(newSourceItems, function(n, newSourceItem) {
+            $("#percolatorSourceWeaponry").append("{0}\n".format(newSourceItem.join(",")));
+        });
+
+        if(this.shouldAddToPvE) {
+            this.pveWeapons = this.pveWeapons.concat(newSourceItems);
+        }
+
+        if(this.shouldAddToPvP) {
+            this.pvpWeapons = this.pvpWeapons.concat(newSourceItems);
+        }
+    },
     init: function() { 
         this.getWeaponData();
         this.initEvents();
@@ -205,6 +247,10 @@ var percolator = {
 
         $("#findBlessed").click(function() {
             self.findBlessed();
+        });
+
+        $("#addAndTranslate").click(function() {
+            self.addAndTranslate();
         });
     }
 };
