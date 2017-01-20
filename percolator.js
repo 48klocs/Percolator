@@ -24,7 +24,7 @@ var percolator = {
         });
 
         $.get('destinyWeapons.csv', function(data) {
-            self.characterItems = $.csv.toObjects(data);
+            self.characterItems = $.csv.toArrays(data);
         });
     },
     translateClassHash: function(classHash) {
@@ -75,7 +75,7 @@ var percolator = {
             $.each(self.pveWeapons, function(n, pveWeapon) {
                 if(self.weaponMatchesBlessedWeapon(weapon, pveWeapon))
                 {
-                    $('#pveWeaponList').append("<li>{0}</li>".format(weapon.Name));
+                    $('#pveWeaponList').append("<li>{0}</li>".format(self.getInventoryWeaponName(weapon)));
                 }
             })
         });
@@ -87,13 +87,16 @@ var percolator = {
             $.each(self.pvpWeapons, function(n, pvpWeapon) {
                 if(self.weaponMatchesBlessedWeapon(weapon, pvpWeapon))
                 {
-                    $('#pvpWeaponList').append("<li>{0}</li>".format(weapon.Name));
+                    $('#pvpWeaponList').append("<li>{0}</li>".format(self.getInventoryWeaponName(weapon)));
                 }
             })
         });
     },
+    getInventoryWeaponName: function(inventoryWeapon) {
+        return inventoryWeapon[0];
+    },
     weaponMatchesBlessedWeapon: function(inventoryWeapon, blessedWeapon) {
-        return (inventoryWeapon.Name == blessedWeapon.Name);
+        return (this.getInventoryWeaponName(inventoryWeapon) == blessedWeapon.Name);
     },
     init: function() { 
         this.getWeaponData();
