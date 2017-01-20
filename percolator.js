@@ -58,7 +58,7 @@ var percolator = {
             return this.characterItems;
         }
 
-        var rawCharacterWeaponData = $.csv.toObjects($("#characterInventory").val());
+        var rawCharacterWeaponData = $.csv.toArrays($("#characterInventory").val());
 
         return rawCharacterWeaponData;
     },
