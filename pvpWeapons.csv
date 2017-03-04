@@ -1,186 +1,63 @@
-Name,PerkOne,PerkTwo,PerkThree,PerkFour
-Angel's Advocate,Reflex,Life Support/Zen Moment,Perfect Balance,Hidden Hand
-Badger CCL,Red Dot-OAS,Crowd Control,Hand-laid Stock,Hidden Hand
-Cocytus SR4,Torch HS2,Life Support,Hand-laid Stock,Eye of the Storm
-Colovance's Duty,Red Dot-OAS,Crowd Control,Hand-laid Stock,Hidden Hand
-Cryptic Dragon,Red Dot-OAS,Crowd Control,Braced Frame,Reactive Reload
-The Distant Star,Iron Ranged Scope,Perfect Balance,Full Auto/Explosive Rounds,Zen Moment/Hidden Hand
-Hand of Judgement,Red Dot-OAS,Hand-laid Stock,Explosive Rounds,Hidden Hand/Zen Moment
-The Hero Formula,Reflex,Life Support/Zen Moment,Braced Frame,Hidden Hand
-Keystone 01,Reflex,Explosive Rounds,Perfect Balance,Hidden Hand
-Lethe Noblesse,Reflex,Crowd Control,Hand-laid Stock,Hidden Hand
-NL Shadow 701X,Red Dot-OAS,Zen Moment,Explosive Rounds,Hidden Hand
-Not Like the Others,Reflex,Zen Moment,Explosive Rounds,Hidden Hand
-The Saterienne Rapier,Red Dot-OAS,Crowd Control,Explosive Rounds,Reactive Reload
-SUROS DIS-43,SPO-28,Perfect Balance/Hammer Forged,Hidden Hand,Smallbore/Hand-laid Stock
-SUROS DIS-47,SPO-28,Perfect Balance/Hammer Forged,Full Auto,Smallbore/Hand-laid Stock
-Treads Upon Stars,Red Dot-OAS,Crowd Control,Braced Frame,Hidden Hand
-Tuonela SR4,Torch HS2,Life Support,Extended Mag,Zen Moment/Third Eye
-The Wounded,Reflex,Explosive Rounds,Perfect Balance,Hidden Hand
-Aegis of the Reef,Red Dot-OAS/SureShot IS,Perfect Balance,High Caliber Rounds,Counterbalance
-Apple of Discord,SC Holo,Headseeker,Counterbalance,Hand-laid Stock
-B-29 Party Favor,Reflex,Feeding Frenzy,Perfect Balance/Hand-laid Stock,Counterbalance/Rangefinder
-The Clever Dragon,Iron Red Dot,Perfect Balance,High Caliber Rounds,Counterbalance
-Final Duty,Reflex,Headseeker,Perfect Balance,Feeding Frenzy
-Grasp of Malok,Red Dot-OAS,Counterbalance,Braced Frame/Smallbore/Perfect Balance,Feeding Frenzy
-Hawksaw,SPO-28,Perfect Balance,Counterbalance,Rifled Barrel
-Herja-D,SC Holo,Headseeker,Counterbalance,Hand-laid Stock
-Hopscotch Pilgrim,Red Dot-OAS,Headseeker,Perfect Balance,Full Auto
-Lyudmila-D,SC Holo,Headseeker,Counterbalance,Hand-laid Stock
-Nirwen's Mercy,Red Dot-OAS,Counterbalance,Braced Frame,Feeding Frenzy
-Parthian Shot,Reflex,Feeding Frenzy,Hand-laid Stock,Headseeker
-Spare Change .25,Red Dot-OAS,Counterbalance,Braced Frame,Feeding Frenzy
-SUROS PDX-41,SPO-28,Perfect Balance,Hidden Hand,Smallbore
-SUROS PDX-45,SPO-28,Perfect Balance,Counterbalance,Rifled Barrel/Smallbore
-The Villainy,Red Dot-OAS,Counterbalance,Braced Frame,Feeding Frenzy
-The Waltz,Reflex,High Caliber Rounds,Smallbore,Counterbalance
-Byronic Hero,SureShot IS/TrueSight IS,Rangefinder,Rifled Barrel,Hidden Hand
-The Devil You Know,SureShot IS/TrueSight IS,Rangefinder,Rifled Barrel,Icarus
-Down and Doubt 00-0,SureShot IS/TrueSight IS,Luck in the Chamber,Rifled Barrel,Icarus
-Eyasluna,SureShot IS/TrueSight IS,Rangefinder,Rifled Barrel,Hidden Hand
-Finnala's Peril,SureShot IS/TrueSight IS,Rangefinder,Rifled Barrel,Hidden Hand
-Free Will III,SureShot IS/TrueSight IS,Explosive Rounds,Hammer Forged,Rangefinder
-Gatheris-D,SureShot IS/TrueSight IS,Crowd Control,Rangefinder,Reinforced Barrel
-Her Revenge,SureShot IS/TrueSight IS,Rangefinder,Rifled Barrel,Hidden Hand/Icarus
-How Dare You,SureShot IS/TrueSight IS,Icarus,Rifled Barrel,Rangefinder
-Ill Will,SureShot IS,Rangefinder,Braced Frame,Luck in the Chamber
-Imago Loop,SureShot IS/TrueSight IS,Rangefinder,Rifled Barrel,Hidden Hand/Icarus
-Judith-D,SureShot IS/TrueSight IS,Crowd Control,Final Round/Reactive Reload,Speed Reload
-Kumakatok HC-4,SureShot IS/TrueSight IS,Luck in the Chamber,Braced Frame,Icarus
-The Lingering Song,Iron Lordly Sights,Braced Frame,Feather Mag,Luck in the Chamber
-Lord High Fixer,SureShot IS/TrueSight IS,Rangefinder,Rifled Barrel,Hidden Hand/Icarus
-The Palindrome,SureShot IS/TrueSight IS,Icarus,Rifled Barrel,Rangefinder
-The Revelator,SureShot IS/TrueSight IS,Rangefinder,Rifled Barrel,Hidden Hand
-Stolen Pride,TrueSight IS,Rifled Barrel,Explosive Rounds,Rangefinder
-The Vanity,SureShot IS/TrueSight IS,Luck in the Chamber,Rifled Barrel,Icarus
-Uffren HC4,SureShot IS/TrueSight IS,Luck in the Chamber,Rifled Barrel,Icarus
-The Wail,SureShot IS/TrueSight IS,Outlaw,Hammer Forged,Rangefinder
-An Answering Chord,SPO-28,Perfect Balance,Smallbore,Rangefinder
-Antipodal Hindsight,Reflex,Rangefinder,Rifled Barrel,Hidden Hand
-Arminius-D,SC Holo,Crowd Control,Counterbalance,Braced Frame
-Assembly II,Reflex,High Caliber Rounds,Perfect Balance,Counterbalance
-The Continental,Reflex,Crowd Control,Braced Frame,Counterbalance
-The Dealbreaker,SC Holo,Crowd Control,Rangefinder,Rifled Barrel
-Does Not Bow,Red Dot-OAS,Rangefinder,Perfect Balance,Hidden Hand
-Extremophile 011,Reflex,High Caliber Rounds,Perfect Balance,Counterbalance
-Grim Citizen III,Red Dot-OAS,Rangefinder,Perfect Balance,Hidden Hand
-Haakon's Hatchet,Red Dot-OAS,Rangefinder,Smallbore,Counterbalance
-Her Memory,Reflex/Sureshot IS,Rangefinder,Perfect Balance,Counterbalance
-Hex Caster ARC,Red Dot-OAS,Persistence,Perfect Balance,Life Support
-Paleocontact JPK-43,Reflex,Rangefinder,Rifled Barrel,Counterbalance
-Red Spectre,Red Dot-OAS,Rangefinder,Perfect Balance,Hidden Hand
-Shadow Price,Red Dot-OAS,Rangefinder,Perfect Balance,Hidden Hand
-Soulstealer's Claw,Red Dot-OAS,Perfect Balance,Single Point Sling,Counterbalance
-SUROS ARI-41,SPO-28,Perfect Balance,Rifled Barrel,Counterbalance
-SUROS ARI-45,SPO-28,Perfect Balance,Rifled Barrel,Counterbalance
-The Unbent Tree,Iron Ranged Scope,Braced Frame,Single Point Sling,Counterbalance
-Vision Stone,Smart Drift Control,Send It,Hand Loaded,Crowd Control
-Zarinaea-D,SC Holo,Crowd Control,Rangefinder,Braced Frame
-Zero-Day Dilemma,Reflex,Crowd Control,Perfect Balance,Hidden Hand
-1000 Yard Stare,ShortGaze SLH10,Eye of the Storm,Quickdraw,Hidden Hand
-20/20 AMR7,ShortGaze SLH10,Unflinching,Skip Rounds,Hidden Hand
-Antinomy XVI,ATA Scout,Unflinching,Performance Bonus,Quickdraw
-Aoife Rua-D,ATA Scout,Unflinching,Performance Bonus,Quickdraw
-Bitter Edge 010,ShortGaze SLH10,Quickdraw,Life Support,Hidden Hand
-But Not Forgotten,Linear Compensator,Braced Frame,Quickdraw,Hidden Hand
-Deposition VII,ShortGaze SLH10,Snapshot,Mulligan,Unflinching
-Devil's Dawn,Linear Compensator,Life Support,Quickdraw,Firefly
-Eirene RR4,Faucon SS1,Performance Bonus,Quickdraw,Unflinching
-Event Horizon,ShortGaze SLH10,Grenadier/Spray and Pray,Quickdraw,Hidden Hand
-Extrasolar RR4,ShortGaze SLH10,Eye of the Storm,Quickdraw,Hidden Hand
-Her Fury,ShortGaze SLH10,Life Support,Quickdraw,Hidden Hand
-The Laughing Heart,Linear Compensator,Injection Mold,Quickdraw,Hidden Hand
-LDR 5001,ShortGaze SLH10,Life Support,Quickdraw,Hidden Hand
-Seventh Sense,ViewTac SLH20/Ambush SLH25,Grenadier,Quickdraw,Firefly
-Tamar-D,ATA Scout,Unflinching,Performance Bonus,Quickdraw
-Tao Hua Yuan,ShortGaze SLH10,Eye of the Storm,Quickdraw,Hidden Hand
-Uzume RR4,Faucon SS1,Performance Bonus,Quickdraw,Unflinching
-Weyloran's March,ShortGaze SLH10,Eye of the Storm,Quickdraw,Hidden Hand
-Y-09 Longbow Synthesis,ShortGaze SLH10,Life Support,Quickdraw,Hidden Hand
-44 Curtain Call,Linear Compensator/Accurized Ballistics/Field Choke,Performance Bonus,Reinforced Barrel/Rifled Barrel,Rangefinder
-Bad Counsel IV,Aggressive Ballistics,Close and/or Personal,Quickdraw/Snapshot,Rangefinder
-Burden of Proof XI,Linear Compensator/Accurized Ballistics/Field Choke,Rangefinder,Reinforced Barrel/Rifled Barrel,Performance Bonus
-The Comedian,Linear Compensator/Accurized Ballistics/Field Choke,Full Auto,Reinforced Barrel/Rifled Barrel,Performance Bonus
-Conspiracy Theory-D,Field Choke,Rangefinder,Reinforced Barrel/Rifled Barrel,Performance Bonus
-Her Champion,Linear Compensator/Accurized Ballistics/Field Choke,Rangefinder,Reinforced Barrel/Rifled Barrel,Performance Bonus
-Jingukogo-D,Linear Compensator/Accurized Ballistics/Field Choke,Final Round,Rangefinder,Rifled Barrel
-Last-Ditch 001,CQB Ballistics,Quickdraw,Hammer Forged,Rangefinder
-Matador 64,Aggressive Ballistics,Performance Bonus,Reinforced Barrel/Rifled Barrel,Rangefinder
-The Next Big Thing,Linear Compensator/Accurized Ballistics/Field Choke,Rangefinder,Rifled Barrel,Close and/or Personal
-Occam's Razor,Linear Compensator/Accurized Ballistics/Field Choke,Performance Bonus,Reinforced Barrel/Rifled Barrel,Rangefinder
-Patch-A,Linear Compensator/Accurized Ballistics/Field Choke,Rangefinder,Rifled Barrel,Close and/or Personal
-Party Crasher +1,Aggressive Ballistics,Rangefinder,Rifled Barrel/Reinforced Barrel,Performance Bonus
-The Proud Spire,Linear Compensator,Reinforced Barrel/Rifled Barrel,Quickdraw/Snapshot,Rangefinder
-Stolen Will,Linear Compensator/Accurized Ballistics/Field Choke,Rangefinder,Reinforced Barrel/Rifled Barrel,Performance Bonus
-Strongbow-D,Linear Compensator/Accurized Ballistics/Field Choke,Close and/or Personal,Rangefinder,Rifled Barrel
-Two to the Morgue,Linear Compensator/Accurized Ballistics/Field Choke,Rangefinder,Reinforced Barrel/Rifled Barrel,Performance Bonus
-Unraveling Thread,CQB Ballistics,Hammer Forged,Hand Loaded,Rangefinder
-Winter's End,Linear Compensator,Rifled Barrel,Lightweight,Life Support/Performance Bonus
-77 Wizard,Red Dot-OAS,Rangefinder,Rifled Barrel,Grenadier
-Ashraven's Flight,Red Dot-OAS,Danger Close,Rifled Barrel,Rangefinder
-The Branded Lord,Linear Compensator,Rifled Barrel,Quickdraw,Rangefinder
-Darkblade's Spite,Red Dot-OAS,Danger Close,Rifled Barrel,Rangefinder
-Each New Day,Reflex,Life Support,Rifled Barrel,Rangefinder
-Ex Astris,Reflex,Life Support,Rifled Barrel,Rangefinder
-Hitchhiker FR4,Reflex,Danger Close,Rifled Barrel,Rangefinder
-Long Far Gone,Reflex,Danger Close,Braced Frame,Rangefinder
-Phanta Rei,Reflex,Danger Close,Rifled Barrel,Rangefinder
-Saladin's Vigil,Linear Compensator,Rifled Barrel,Quickdraw,Rangefinder
-Split Shifter Pro,Red Dot-OAS,Hip Fire,Braced Frame,Hot Swap
-Techuen Rage,SureShot IS/Reflex,Danger Close,Rifled Barrel,Rangefinder
-Thesan FR4,Torch HS2,Hot Swap,Quickdraw,Rangefinder
-The Vacancy,Torch HS2,Hot Swap,Quickdraw,Rangefinder
-The Vortex,Reflex,Danger Close,Rifled Barrel,Rangefinder
-The Waiting,Reflex,Quickdraw,Hammer Forged,Rangefinder
-Worlds to Come 001,Reflex,Snapshot,Hammer Forged,Rangefinder
-Anton's Rule,SureShot IS/TrueSight IS,Zen Moment,Hand Loaded,Rangefinder/Hidden Hand
-The Binding Blaze,Iron Lordly Sights,Hand Loaded/Fitted Stock,High Caliber Rounds,Rangefinder/Hidden Hand/Zen Moment
-Conviction II,SureShot IS/TrueSight IS,Zen Moment,Hot Swap,High Caliber Rounds
-Crow's Eye,Linear Compensator,Hand Loaded,High Caliber Rounds,Rangefinder
-Havoc Pigeon,SureShot IS/TrueSight IS,Zen Moment,Hot Swap,High Caliber Rounds
-Impeacher V,SureShot IS/TrueSight IS,High Caliber Rounds/Quickdraw,Hand Loaded,Rangefinder/Hidden Hand
-Ironwreath-D,SureShot IS/TrueSight IS,Zen Moment,Hot Swap,High Caliber Rounds
-JabberHakke-D,SureShot IS/TrueSight IS,Zen Moment,Hot Swap,High Caliber Rounds
-Teacup Tempest,SureShot IS/TrueSight IS,Zen Moment,High Caliber Rounds,Rangefinder
-Queen's Choice,Linear Compensator,Rangefinder/Zen Moment,High Caliber Rounds,Hot Swap
-The Wormwood,SureShot IS/TrueSight IS,High Caliber Rounds/Quickdraw,Hand Loaded,Rangefinder/Hidden Hand
-Bane of the Taken,Smooth Ballistics,Counterbalance,Perfect Balance,Hidden Hand
-Baron's Ambition,Accurized Ballistics/Linear Compensator,Counterbalance/Life Support,Perfect Balance,Hidden Hand
-Bonekruscher,Linear Compensator,Feeding Frenzy,Quickdraw/Hand-laid Stock,Crowd Control
-Bretomart's Stand,Linear Compensator,Hip Fire,Rifled Barrel,Hidden Hand
-Chaotic Neutral,Linear Compensator,Hip Fire,Rifled Barrel,Hidden Hand
-Diluvian 10/4X,Linear Compensator,Hip Fire,Braced Frame,Persistence
-First Citizen IX,Linear Compensator,Hip Fire,Perfect Balance,Persistence
-Ruin Wake,Linear Compensator,Hip Fire,Rifled Barrel,Hidden Hand
-Objection IV,Linear Compensator,Hip Fire,Rifled Barrel,Hidden Hand
-The Silvered Dread,Linear Compensator,Perfect Balance,Field Scout,Hidden Hand
-The Swarm,Linear Compensator,Life Support,Rifled Barrel,Rangefinder
-Unending Deluge III,Linear Compensator,Counterbalance,Perfect Balance,Rangefinder
-The Variable,Linear Compensator,Hip Fire,Braced Frame,Persistence
-Zombie Apocalypse WF47,Linear Compensator/Accurized Ballistics/Field Choke,Life Support/Counterbalance,Perfect Balance,Hidden Hand
-The Ash Factory,Warhead Verniers/Hard Launch,Tripod,Javelin,Grenades and Horseshoes
-Disassembly Required,Warhead Verniers/Hard Launch,Battle Runner,Javelin,Grenades and Horseshoes
-The Nightmare,Warhead Verniers/Hard Launch,Tripod,Field Scout,Grenades and Horseshoes
-SUROS JLB-42,Warhead Verniers/Hard Launch,Heavy Payload,Grenades and Horseshoes,Javelin
-SUROS JLB-47,Warhead Verniers/Hard Launch,Heavy Payload,Grenades and Horsehoes,Javelin
-Something Wicked,Warhead Verniers/Hard Launch,Battle Runner,Heavy Payload,Grenades and Horseshoes
-Steel Oracle Z-11,Warhead Verniers/Hard Launch,Tripod,Field Scout,Grenades and Horseshoes
-The Titanium Orchid,Hard Launch/Aggressive Launch,Heavy Payload,Speed Reload/Flared Magwell,Grenades and Horseshoes
-Tormod's Bellows,Warhead Verniers/Hard Launch,Tripod,Heavy Payload,Grenades and Horseshoes
-Unto Dust 00,Warhead Verniers/Hard Launch,Field Scout,Heavy Payload,Grenades and Horseshoes
-The Vertigo,Warhead Verniers/Hard Launch,Heavy Payload,Grenades and Horseshoes,Javelin
-The Warpath,Warhead Verniers/Hard Launch,Field Scout,Javelin,Grenades and Horseshoes
-Saladin's Vigil,Linear Compensator,Perfect Balance,Lightweight,Rangefinder
-The Last Word,Last Word,Fan Fire,Hip Fire,Perfect Balance,Soft Ballistics,
-The Palindrome,Rangefinder,Mulligan,Rifled Barrel,TrueSight IS,,
-The Palindrome,Rangefinder,Rifled Barrel,TrueSight IS,Spray and Play,,
-Matador 64,Aggressive Ballistics,Reinforced Barrel,Rangefinder,Performance Bonus,,
-The Clever Dragon,Counterbalance,Snapshot,Braced Frame,Iron Red Dot,,
-Matador 64,Aggressive Ballistics,Reinforced Barrel,Rangefinder,Full Auto,,
-Matador 64,Aggressive Ballistics,Reinforced Barrel,Rangefinder,Spray and Play,,
-Matador 64,Aggressive Ballistics,Reinforced Barrel,Crowd Control,Performance Bonus,,
-Matador 64,Aggressive Ballistics,Reinforced Barrel,Rangefinder,Cascade,,
-Matador 64,Aggressive Ballistics,Close and/or Personal,Performance Bonus,Rifled Barrel,,
-Matador 64,Aggressive Ballistics,Crowd Control,Performance Bonus,Rifled Barrel,,
-Matador 64,Aggressive Ballistics,Rangefinder,Cascade,Rifled Barrel,,
-Matador 64,Aggressive Ballistics,Reinforced Barrel,Close and/or Personal,Performance Bonus,,
+Name,PerkOne,PerkTwo,PerkThree,PerkFour,# Players,Tier,Type,Bucket
+No Land Beyond,CQB Ballistics,Mulligan,Snapshot,The Master,"13,620",Exotic,Sniper Rifle,Primary
+The Wormwood,TrueSight IS,High Caliber Rounds,Hand Loaded,Hidden Hand,"11,602",Legendary,Sidearm,Special
+The Last Word,Soft Ballistics,Hip Fire,Perfect Balance,Last Word,"9,354",Exotic,Hand Cannon,Primary
+Trespasser,SureShot IS,Relentless Tracker,Reinforced Barrel,Unrepentant,"9,211",Exotic,Sidearm,Special
+Hawkmoon,Accurized Ballistics,Luck in the Chamber,Hammer Forged,Holding Aces,"8,438",Exotic,Hand Cannon,Primary
+The Wormwood,TrueSight IS,High Caliber Rounds,Zen Moment,Hidden Hand,"7,276",Legendary,Sidearm,Special
+MIDA Multi-Tool,Soft Ballistics,Third Eye,Lightweight,MIDA Multi-Tool,"6,558",Exotic,Scout Rifle,Primary
+The Palindrome,TrueSight IS,Mulligan,Rifled Barrel,Rangefinder,"6,031",Legendary,Hand Cannon,Primary
+The Palindrome,TrueSight IS,Spray and Play,Rifled Barrel,Rangefinder,"5,497",Legendary,Hand Cannon,Primary
+Blind Perdition (Adept),Smooth Ballistics,Hand-laid Stock,High Caliber Rounds,Counterbalance,"4,581",Legendary,Pulse Rifle,Primary
+Hawksaw,SLO-19,Fitted Stock,Counterbalance,Smallbore,"3,488",Legendary,Pulse Rifle,Primary
+The Jade Rabbit,Smart Drift Control,Spray and Play,Extended Mag,Zen Moment,"2,335",Exotic,Scout Rifle,Primary
+Parthian Shot,SteadyHand IS,Rodeo,Perfect Balance,Headseeker,"2,233",Legendary,Pulse Rifle,Primary
+SUROS Regime,Smart Drift Control,Focused Fire,SUROS Legacy,Hammer Forged,"2,215",Exotic,Auto Rifle,Primary
+The Wormwood,TrueSight IS,Quickdraw,Hand Loaded,Hidden Hand,"2,051",Legendary,Sidearm,Special
+1000-Yard Stare,ShortGaze SLH10,Last Resort,Rifled Barrel,Firefly,"2,032",Legendary,Sniper Rifle,Special
+Blind Perdition,Smooth Ballistics,Hand-laid Stock,High Caliber Rounds,Counterbalance,"1,853",Legendary,Pulse Rifle,Primary
+The Wormwood,TrueSight IS,Quickdraw,Zen Moment,Hidden Hand,"1,850",Legendary,Sidearm,Special
+The Wormwood,FastDraw IS,High Caliber Rounds,Hand Loaded,Hidden Hand,"1,816",Legendary,Sidearm,Special
+Universal Remote,Smooth Ballistics,Crowd Control,Hammer Forged,Universal Remote,"1,457",Exotic,Shotgun,Primary
+Thorn,Accurized Ballistics,Final Round,Send It,Mark of the Devourer,"1,269",Exotic,Hand Cannon,Primary
+Doctrine of Passing (Adept),FastDraw IS,Persistence,Braced Frame,Counterbalance,"1,248",Legendary,Auto Rifle,Primary
+Dreg's Promise,Soft Ballistics,Grave Robber,Perfect Balance,Shock Rounds,"1,185",Exotic,Sidearm,Special
+Blind Perdition (Adept),Smooth Ballistics,Smallbore,High Caliber Rounds,Counterbalance,"1,165",Legendary,Pulse Rifle,Primary
+The Wormwood,FastDraw IS,High Caliber Rounds,Zen Moment,Hidden Hand,"1,145",Legendary,Sidearm,Special
+Invective,Accurized Ballistics,Final Round,Send It,Invective,"1,118",Exotic,Shotgun,Special
+Hawksaw,SPO-28,Fitted Stock,Counterbalance,Smallbore,"1,112",Legendary,Pulse Rifle,Primary
+Doctrine of Passing,FastDraw IS,Persistence,Braced Frame,Counterbalance,"1,102",Legendary,Auto Rifle,Primary
+Event Horizon,ShortGaze SLH10,Spray and Play,Smallbore,Hidden Hand,"1,064",Legendary,Sniper Rifle,Special
+Blind Perdition (Adept),CQB Ballistics,Smallbore,High Caliber Rounds,Counterbalance,"1,064",Legendary,Pulse Rifle,Primary
+The Wormwood,QuickDraw IS,High Caliber Rounds,Hand Loaded,Hidden Hand,935,Legendary,Sidearm,Special
+Dreg's Promise,Aggressive Ballistics,Grave Robber,Perfect Balance,Shock Rounds,915,Exotic,Sidearm,Special
+Blind Perdition (Adept),Smooth Ballistics,Hand-laid Stock,Hand Loaded,Counterbalance,913,Legendary,Pulse Rifle,Primary
+Burning Eye (Adept),Smart Drift Control,Smallbore,Explosive Rounds,Zen Moment,902,Legendary,Scout Rifle,Primary
+Devil's Dawn,Linear Compensator,Life Support,Quickdraw,Firefly,897,Legendary,Sniper Rifle,Special
+Blind Perdition (Adept),Smart Drift Control,Smallbore,High Caliber Rounds,Counterbalance,844,Legendary,Pulse Rifle,Primary
+Burning Eye (Adept),Smart Drift Control,Smallbore,Explosive Rounds,Third Eye,833,Legendary,Scout Rifle,Primary
+Ironwreath-D,SureShot IS,Zen Moment,Hot Swap,Reinforced Barrel,783,Legendary,Sidearm,Special
+The Winged Word,Smooth Ballistics,Perfect Balance,Snapshot,Unflinching,777,Legendary,Sniper Rifle,Special
+Ironwreath-D,SureShot IS,Zen Moment,Hot Swap,Quickdraw,745,Legendary,Sidearm,Special
+Devil's Dawn,Linear Compensator,Life Support,Armor Piercing Rounds,Firefly,736,Legendary,Sniper Rifle,Special
+GENESIS CHAIN~,Linear Compensator,Focused Fire,Hammer Forged,Focused Firefly,729,Legendary,Auto Rifle,Primary
+The Winged Word,Linear Compensator,Injection Mold,Snapshot,Unflinching,707,Legendary,Sniper Rifle,Special
+The Wormwood,SureShot IS,High Caliber Rounds,Hand Loaded,Rangefinder,689,Legendary,Sidearm,Special
+1000-Yard Stare,ShortGaze SLH10,Last Resort,Skip Rounds,Firefly,675,Legendary,Sniper Rifle,Special
+Stillpiercer,Smooth Ballistics,Perfectionist,Snapshot,Self Spotter,669,Legendary,Sniper Rifle,Special
+The Winged Word,Linear Compensator,Perfect Balance,Snapshot,Unflinching,650,Legendary,Sniper Rifle,Special
+Matador 64,Aggressive Ballistics,Full Auto,Reinforced Barrel,Rangefinder,648,Legendary,Shotgun,Special
+GENESIS CHAIN~,Linear Compensator,Focused Fire,High Caliber Rounds,Focused Firefly,631,Legendary,Auto Rifle,Primary
+The Wormwood,QuickDraw IS,High Caliber Rounds,Zen Moment,Hidden Hand,606,Legendary,Sidearm,Special
+Event Horizon,ShortGaze SLH10,Grenadier,Smallbore,Hidden Hand,600,Legendary,Sniper Rifle,Special
+Monte Carlo,Smart Drift Control,Hip Fire,Send It,Monte Carlo Method,589,Exotic,Auto Rifle,Primary
+Blind Perdition,Smooth Ballistics,Smallbore,High Caliber Rounds,Counterbalance,574,Legendary,Pulse Rifle,Primary
+Blind Perdition (Adept),Smart Drift Control,Hand-laid Stock,High Caliber Rounds,Counterbalance,567,Legendary,Pulse Rifle,Primary
+The Wormwood,TrueSight IS,High Caliber Rounds,Hand Loaded,Rangefinder,549,Legendary,Sidearm,Special
+The Wormwood,SureShot IS,High Caliber Rounds,Fitted Stock,Rangefinder,533,Legendary,Sidearm,Special
+Red Death,Accurized Ballistics,Unflinching,High Caliber Rounds,Red Death,526,Exotic,Pulse Rifle,Primary
+Conspiracy Theory-D,Smooth Ballistics,Rangefinder,Rifled Barrel,Performance Bonus,523,Legendary,Shotgun,Special
+Monte Carlo,Smart Drift Control,Hip Fire,High Caliber Rounds,Monte Carlo Method,522,Exotic,Auto Rifle,Primary
+SUROS PDX-45,SLO-19,Perfect Balance,Full Auto,Rifled Barrel,519,Legendary,Pulse Rifle,Primary
+Hard Light,Accurized Ballistics,Volatile Light,Fitted Stock,Glass Half Full,518,Exotic,Auto Rifle,Primary
+ZEAL VECTOR~,Smart Drift Control,Reactive Reload,Hand Loaded,Quick Reaction,504,Legendary,Sidearm,Special
